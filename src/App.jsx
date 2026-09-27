@@ -8,6 +8,12 @@ import Tours from './Pages/Tours'
 import About from './Pages/About'
 import ResponsiveMenu from './Components/ResponsiveMenu'
 import Hero from './Components/Hero';
+import FeatureDestination from './Components/FeaturedDestination';
+import Features from './Components/Features';
+import GalleryComp from './Components/GalleryComp';
+import Banner from './Components/Banner';
+import ContactComp from './Components/ContactComp';
+import Footer from './Components/Footer';
 
 const router = createBrowserRouter([
   {
@@ -36,9 +42,12 @@ const App = () => {
   return (
     <>
     <RouterProvider router={router}/>
-   
-    
-    
+    <FeatureDestination />
+    <Features/>
+    <GalleryComp/>
+    <Banner/>
+    <ContactComp/>
+    <Footer/>
     
     {/* <h1>usman</h1> */}
     </>
